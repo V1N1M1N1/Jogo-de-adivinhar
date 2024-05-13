@@ -23,7 +23,7 @@ def jogo_adivinhacao():
         if diferenca == 1:
             print("Mas você está muito perto!")
         elif diferenca <= 3:
-            print("Você está perto!")
+            print("Mas você está perto!")
 
     jogar_novamente = input("Deseja jogar novamente? (s/n): ")
     if jogar_novamente.lower() == 's':
